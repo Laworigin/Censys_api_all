@@ -13,7 +13,7 @@ import time
 def get_info(country,app,page,ip_list):
 	Cen_Api_Url="https://www.censys.io/api/v1/search/ipv4"   #身份认证 UID和SECRET每次登陆都会改变
 	UID="9e16f3d4-e0e4-4001-a45d-f11cc8896498"
-	SECRET="R6m4Ow19Nc4ApkgQCVDDO1dNnOJkPTpF"
+	SECRET="XXXXXXXXXXX"
 
 	if country=="null":   #提交查询数据
 		data={"query":app,"page":page,"fields":["ip","protocols","location.country"]}
